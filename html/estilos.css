@@ -1,0 +1,52 @@
+body {
+	background-color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*Documento CSS*/
+
+#menu{
+	float: left;
+	width: 150px;
+	height: 100px;
+	padding: 7px;
+	padding-left: 8px;
+	border-right-color: #ececf;
+	border-right-width: 1px;
+	border-right-style: dotted;
+}
+
+#menu a{
+	padding: 3px 1px;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: gray;
+}
+
+#menu a:hover{
+	background-color: #CCCCCC;
+	color: #333333;
+}
+
+#contenido{
+	float:left;
+	width:480px;
+	height: 600px;
+	margin-left: 10px;
+	padding: 5px;
+	padding-bottom: 8px;
+	background-color: #CCCCCC;
+}
+
+.titulo {
+	color: #006699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.parrafos {
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
